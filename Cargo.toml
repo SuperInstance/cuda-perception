@@ -1,0 +1,8 @@
+[package]
+name = "cuda-perception"
+version = "0.1.0"
+edition = "2021"
+description = "Perception pipeline — raw sensor data to structured understanding with filtering, classification, and scene composition"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
